@@ -4,7 +4,7 @@ import openpyxl as op
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
 
-arq=pd.read_excel('atividade_python.xlsx') # abrir arquivo excel
+arq=pd.read_excel('TabelaExemplo.xlsx') # abrir arquivo excel
 Tab=arq #variavel contendo só as áreas principais da tabela
 
 while(True):
